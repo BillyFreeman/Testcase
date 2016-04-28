@@ -1,0 +1,37 @@
+.tc-engine-edit {
+    float: right;
+    display: none;
+    color: #9D9D9D;
+    cursor: pointer;
+}
+
+.tc-engine-edit > * {
+    display: inline-block;
+}
+
+.tc-engine-edit > i:hover, .tc-submit-i-button:hover {
+    color: #4F98C3;
+}
+
+#rendering-engine-table > tbody > tr:hover .tc-engine-edit {
+    display: block;
+}
+
+.tc-submit-i-button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    outline: 0;
+    padding: 0 3px;
+}
+
+.tc-highlight {
+    color: #9D9D9D;
+    cursor: pointer;
+}
+
+.tc-highlight:hover {
+    color: #4F98C3;
+}
+
+
